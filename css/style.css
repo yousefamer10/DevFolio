@@ -1,0 +1,511 @@
+.home {
+    background-image: url(../Images/image01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    position: relative;
+
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.ankers a {
+    color: white;
+}
+
+.logo-size {
+    font-size: 28px;
+}
+
+.fixed {
+
+    z-index: 999999999;
+}
+
+.navbar1 ul li {
+    position: relative;
+
+}
+
+.dropdown {
+    position: relative;
+}
+
+.items-drop a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.items-drop {
+    width: 200px;
+    position: absolute;
+    background-color: white;
+    visibility: hidden;
+    transform: translatey(30px);
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.dropdown:hover .items-drop {
+    visibility: visible;
+    transform: translatey(0px);
+    opacity: 3;
+
+}
+
+.items-drop li {
+    padding: 0.5rem 0.5rem;
+}
+
+.items-drop a {
+    transition: all 0.5s;
+}
+
+.items-drop a:hover {
+    color: #0078ff;
+}
+
+.deeper {
+    width: 200px;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50%);
+    top: 0;
+    transition: all 0.5s;
+
+}
+
+.eldeep:hover .deeper {
+    transform: translateX(-100%);
+    visibility: visible;
+    opacity: 5;
+}
+
+.deeper a {
+    text-decoration: none;
+}
+
+.navbar1 .only {
+    color: white !important;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position: relative;
+
+}
+
+.navbar1 .only::after {
+    content: "";
+    height: 3px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0%;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.dropdown-toggle::after {
+    border: unset;
+}
+
+
+.navbar1 .only:hover::after {
+    width: 100%;
+}
+
+.homecontent a {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.nar {
+    width: 100px;
+    height: 1000px;
+    background-color: blue;
+}
+
+.homecontent h1 {
+    font-size: 4.5rem;
+}
+
+.homecontent p {
+    margin-top: 0.5rem;
+    font-size: 4rem;
+
+}
+
+.homecontent p::after {
+    content: "";
+    font-size: 2.5rem;
+    animation-name: developer;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes developer {
+    0% {
+        content: "D|";
+    }
+
+    10% {
+        content: "De|";
+    }
+
+    20% {
+        content: "Dev|";
+    }
+
+    30% {
+        content: "Deve|";
+    }
+
+    40% {
+        content: "Devel|";
+    }
+
+    50% {
+        content: "Devele|";
+    }
+
+    60% {
+        content: "Develel|";
+    }
+
+    70% {
+        content: "Develelo|";
+    }
+
+    80% {
+        content: "Develelop|";
+    }
+
+    90% {
+        content: "Develelope|";
+    }
+
+    100% {
+        content: "Develeloper|";
+    }
+
+}
+
+.section2,
+.section3 {
+    background-color: #f5f5f5;
+}
+
+.list ul {
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.list span {
+    color: black;
+}
+
+.list ul li {
+    color: #4e4e4e;
+}
+
+.about-me h2 {
+    color: black;
+    position: relative;
+
+}
+
+.about-me h2::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 20%;
+    height: 3px;
+    background-color: blue;
+}
+
+.about-me p {
+    margin: 1rem 0rem;
+    color: #4e4e4e;
+    font-size: 1.25rem;
+}
+
+.progresses p {
+    margin: 0.5rem 0rem;
+}
+
+.section3 {
+    background-color: #f5f5f5;
+}
+
+.head1 p {
+    position: relative;
+
+}
+
+.head1 h2 {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ;
+}
+
+.head1 p::after {
+    position: absolute;
+    content: "";
+    bottom: -15px;
+    left: 47%;
+    width: 5%;
+    height: 5px;
+    background-color: #0a58ca;
+}
+
+.font {
+    font-size: 3rem;
+}
+
+.mar {
+    padding-left: 20px;
+}
+
+.item p {
+    color: #4e4e4e;
+}
+
+.circle-icon1 {
+    border: 10px solid #0a58ca;
+    padding: 2rem;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.items:hover .circle-icon1 {
+    border: 10px solid #c3c8ce;
+    background-color: #0a58ca;
+    color: white;
+}
+
+.back-img {
+    background-image: url(../Images/image03.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.layer2 {
+    background-color: #0a58ca;
+    opacity: 0.8;
+}
+
+.icon {
+    margin: auto;
+    margin: 2rem;
+
+}
+
+.circle-icon {
+    border: 10px solid white;
+    padding: 2rem;
+    border-radius: 50%;
+}
+
+
+
+.section4 {
+    background-color: #f5f5f5;
+    padding-top: 4rem;
+}
+
+.card1 img {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.card1:hover img {
+    transform: scale(1.5);
+
+}
+
+.spn {
+    color: #0078ff;
+}
+
+.font-plus {
+    font-size: 1.5rem;
+    color: #0a58ca;
+}
+
+.plus-redius {
+    border: 5px solid rgb(13, 92, 211);
+    border-radius: 50%;
+}
+
+.client-back-img {
+    background-image: url(../Images/image10.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.layer3 {
+    background-color: rgba(0, 120, 255, 0.5);
+
+}
+
+.clients {
+    color: white;
+    padding: 5rem 0rem;
+}
+
+.card2 a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    transition: all 0.5s;
+
+}
+
+.card2 a:hover {
+    color: #0d6efd;
+}
+
+.blog-img {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.blog-img::after {
+    content: " web design";
+    text-align: center;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 30%;
+    transform: translatex(-50%);
+    background-color: #0078ff;
+    border-radius: 5px;
+
+}
+
+.foot-content1 img {
+    width: 15%;
+}
+
+.border {
+    border: 3px #4e4e4e solid;
+    border-radius: 10px;
+
+}
+
+.border-top {
+    border-top: #4e4e4e solid 1px;
+}
+
+.foot-content1 a {
+    font-size: 1rem;
+}
+
+.section6 {
+    background-image: url(../Images/image10.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.layer4 {
+    background-color: rgba(0, 120, 255, 0.5);
+}
+
+.title h2 {
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.title h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 30%;
+    bottom: -10px;
+    height: 3px;
+    background-color: #0a58ca;
+    ;
+}
+
+.but button {
+    background-color: #0a58ca;
+    font-size: 1.2rem;
+    border: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+.but button:hover {
+    background-color: #517dbe;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.icons-border {
+    border: 3px solid #0a58ca;
+    border-radius: 50%;
+    color: black;
+    transition: all 0.5s;
+
+}
+
+.icons-border:hover {
+    background-color: #0a58ca;
+    color: white;
+}
+
+.left-contact p {
+    color: #4e4e4e;
+}
+
+.nap {
+    color: #4e4e4e;
+}
+
+.title ul li {
+    padding: 2rem 0rem;
+}
+
+.copy-right span {
+    font-family: fantasy;
+}
+
+.bootstrp a {
+    text-decoration: none;
+    color: white;
+}
+
+.last-color {
+    background-color: #0062d3;
+}
+
+.bootstrp span {
+    color: white;
+}
+
+.copy-right p {
+    color: white;
+    padding-top: 1rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%
+}
